@@ -1,0 +1,439 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  background-color: #000;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em 4em;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+.logo a {
+  text-decoration: none;
+  background-color: none;
+  position: relative;
+}
+
+.logo .fa-solid {
+  font-size: 2rem;
+  color: #fff;
+}
+
+.logo .fa-regular {
+  font-size: 2rem;
+  color: #c3dd0c;
+  position: absolute;
+  left: 82px;
+}
+
+nav ul {
+  margin-left: 10em;
+}
+
+nav ul li {
+  text-decoration: none;
+  display: inline-block;
+  margin: 0 0.5em;
+}
+
+.close-btn {
+  display: none;
+  border: none;
+  background-color: transparent;
+  color: #c3dd0c;
+  font-size: 1.4rem;
+}
+
+#hamburger {
+  display: none;
+  padding: 0.5em 1em;
+  border: none;
+  background-color: transparent;
+  color: #c3dd0c;
+  font-size: 1.4rem;
+}
+
+#close-btn {
+  transition: 0.5s;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #737373;
+  font-weight: 500;
+  font-size: 0.9rem;
+}
+
+nav ul li a.active {
+  color: #c3dd0c;
+}
+
+nav ul li a:hover {
+  color: #c3dd0c;
+  transition: 0.4s;
+}
+
+.nav-btn {
+  background-color: #c3dd0c;
+  border: 0;
+  border-radius: 2em;
+  padding: 0.8em 2.2em;
+  color: #000;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.nav-btn:hover {
+  background-color: #fff;
+  transition: 0.4s;
+}
+
+/* ******************** */
+
+.header {
+  height: 90vh;
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  overflow: hidden;
+}
+
+.header .head-content {
+  padding-left: 10em;
+}
+
+.header div {
+  width: 50%;
+}
+
+.header .head-content span {
+  color: #c3dd0c;
+}
+
+.header h1 {
+  font-size: 3.5rem;
+  margin: 0.3em 0;
+}
+
+.header h3 {
+  font-size: 1.8rem;
+}
+
+.header p {
+  margin: 1.5em 0;
+}
+
+.header button {
+  background-color: #c3dd0c;
+  border: 0;
+  border-radius: 2em;
+  padding: 0.5em 1.2em;
+  color: #000;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.header button:hover {
+  background-color: #fff;
+  transition: 0.4s;
+}
+
+.header img {
+  width: 60%;
+  height: 70vh;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 5px 10px 16px 6px #c3dd0c;
+}
+
+/* ****************** */
+
+.experience {
+  background-color: #fff;
+  width: 80%;
+  margin: 1em auto 0;
+  height: 30vh;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.experience h2 {
+  font-size: 2.2rem;
+}
+
+.experience p {
+  font-size: 1.4rem;
+}
+
+.experience div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.experience div:hover {
+  background-color: #c3dd0c;
+  transition: 0.5s;
+}
+
+.experience div:last-child:hover {
+  border-radius: 0 0 8px 8px;
+}
+.experience div:first-child:hover {
+  border-radius: 8px 8px 0 0;
+}
+
+/* ********************** */
+
+.services {
+  color: #afafaf;
+  margin-top: 6em;
+  min-height: 80vh;
+}
+
+.services h1 {
+  text-align: center;
+  color: #fff;
+}
+
+.services .my-services {
+  display: flex;
+  text-align: center;
+  /* margin-top: 6em; */
+  padding: 6em 8em;
+}
+
+.services .my-services i {
+  font-size: 3rem;
+  margin-bottom: 1em;
+  color: #000;
+  background-color: #fff;
+  padding: 0.5em;
+  border-radius: 10em;
+}
+
+.services .my-services i:hover {
+  background-color: #c3dd0c;
+  color: #fff;
+  transition: 0.4s;
+}
+
+.services .my-services h2 {
+  margin: 0.5em 0;
+}
+
+.services .my-services div {
+  padding: 0 4em;
+}
+
+/* ***************** */
+
+.work-experience h1 {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 1em;
+  font-size: 2.2rem;
+}
+
+.work-experience i {
+  color: #c3dd0c;
+  font-size: 1.5rem;
+  padding: 0.2em;
+  border: 3px dashed #c3dd0c;
+  border-radius: 10em;
+  margin-right: 1em;
+}
+
+.work-experience-row {
+  display: flex;
+  width: 100%;
+  color: #fff;
+  padding: 0 6em;
+}
+
+.work-experience-card {
+  background-color: #0e100f;
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+  width: 100%;
+  padding: 2em;
+  margin: 1em;
+}
+
+.work-experience-card h2 {
+  margin: 0.4em 0;
+}
+
+.work-experience-card h4 {
+  margin: 0.8em 0;
+  font-weight: 400;
+}
+
+.work-experience-card p {
+  margin: 0.8em 0;
+  color: #afafaf;
+}
+
+/* **************** */
+
+.reviews {
+  margin-top: 8em;
+  padding-bottom: 1em;
+  color: #fff;
+}
+
+.reviews h2 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 2em;
+}
+
+.reviews i {
+  color: #c3dd0c;
+  font-size: 4.5em;
+}
+
+.reviews p {
+  font-size: 1.2rem;
+  margin: 0.8em 0;
+  letter-spacing: 1px;
+}
+
+.reviews img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center;
+  margin-right: 1.5em;
+}
+
+.reviews-row {
+  display: flex;
+  padding-left: 4em;
+  margin: 1em 0;
+}
+
+.reviews-card {
+  background-color: #0e100f;
+  margin: 1em;
+  padding: 1em 2em;
+}
+
+.reviews-person {
+  display: flex;
+  align-items: center;
+}
+
+.reviews-btn {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  margin-right: 2em;
+}
+
+.reviews-btn i {
+  font-size: 1.2rem;
+  margin: 0.5em;
+  padding: 0.5em;
+  border-radius: 40px;
+  background-color: #fff;
+  color: #000;
+}
+
+.reviews-btn i:hover {
+  background-color: #c3dd0c;
+  transition: 0.4s;
+}
+
+/* *************** */
+
+.footer {
+  background-color: #0e100f;
+  padding-top: 8em;
+}
+
+.footer h2 {
+  text-align: center;
+  font-size: 3rem;
+  color: #fff;
+}
+
+.footer .footer-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin-top: 3em;
+}
+
+.footer .footer-input button {
+  position: absolute;
+  right: 36%; /* Adjust this value as needed to control the horizontal position */
+  transform: translateX(50%); /* Center the button horizontally */
+  border: none;
+  background-color: #000;
+  color: #fff;
+  padding: 1.2em 2em;
+  border-radius: 40px;
+  font-size: 1rem;
+}
+
+.footer input {
+  background-color: #c3dd0c;
+  padding: 1em 3em;
+  border-radius: 40px;
+  font-size: 1.2rem;
+  width: 40%;
+  border: none;
+}
+
+.footer input::placeholder {
+  color: #000;
+}
+
+/* ***************** */
+
+.footer-links {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 4em;
+}
+
+.footer-links i {
+  margin: 0 0.5em;
+  padding: 1em;
+  border-radius: 50px;
+}
+
+.footer-links .fa-phone,
+.fa-envelope {
+  background-color: #c3dd0c;
+  color: #000;
+}

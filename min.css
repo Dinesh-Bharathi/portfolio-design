@@ -1,0 +1,200 @@
+@media screen and (max-width: 1390px) {
+  .footer .footer-input button {
+    right: 37%;
+  }
+}
+@media screen and (max-width: 1290px) {
+  .footer .footer-input button {
+    right: 38%;
+  }
+}
+@media screen and (max-width: 1190px) {
+  .footer .footer-input button {
+    right: 33%;
+  }
+  .footer input {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 1098px) {
+  .header .head-content {
+    padding-left: 5em;
+  }
+  .services .my-services div {
+    padding: 0 3em;
+  }
+  .footer .footer-input button {
+    right: 33.5%;
+  }
+}
+@media screen and (max-width: 998px) {
+  .services .my-services div {
+    padding: 0 2em;
+  }
+  .services .my-services {
+    padding: 5em 5em;
+  }
+  .footer input {
+    width: 55%;
+  }
+  .footer .footer-input button {
+    right: 32%;
+  }
+}
+@media screen and (max-width: 915px) {
+  .footer-links {
+    flex-wrap: wrap;
+  }
+  .footer-links div {
+    padding: 1em 0;
+  }
+  .footer {
+    padding-top: 5em;
+  }
+  .footer .footer-input button {
+    right: 32.5%;
+  }
+}
+@media screen and (max-width: 798px) {
+  .header img {
+    width: 80%;
+  }
+  nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  .nav-btn {
+    display: none;
+  }
+  .experience {
+    width: 85%;
+    margin: 1em auto 0;
+    height: 25vh;
+  }
+  .services .my-services {
+    padding: 4em 3em;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .services .my-services div {
+    padding: 2em;
+    width: 60%;
+  }
+  .work-experience-row {
+    flex-wrap: wrap;
+  }
+  .footer input {
+    width: 60%;
+  }
+  .footer .footer-input button {
+    right: 33.5%;
+  }
+}
+@media screen and (max-width: 860px) {
+  .navbar {
+    padding: 1em 3em;
+  }
+  .logo .fa-regular {
+    left: 65px;
+  }
+  .services .my-services {
+    padding: 0 3em;
+  }
+  .work-experience-row {
+    padding: 0 3em;
+  }
+  .footer .footer-input button {
+    right: 34%;
+  }
+}
+
+@media screen and (max-width: 649px) {
+  .reviews-row {
+    flex-wrap: wrap;
+  }
+  .footer input {
+    width: 65%;
+  }
+  .footer .footer-input button {
+    right: 30.5%;
+    padding: 1em 1em;
+  }
+}
+
+@media screen and (max-width: 598px) {
+  .footer input {
+    width: 75%;
+  }
+}
+
+@media (max-width: 698px) {
+  .navbar {
+    padding: 1em 1em 1em 2em;
+  }
+
+  .nav-btn {
+    display: none;
+  }
+
+  .logo .fa-regular {
+    left: 50px;
+  }
+  nav ul {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    left: 700px;
+    height: 100%;
+    background-color: #000;
+    transition: left 1s;
+  }
+
+  nav ul.active {
+    display: flex;
+    left: 200px;
+  }
+
+  nav ul li {
+    margin: 0;
+    padding: 1em;
+  }
+  .close-btn,
+  #hamburger {
+    display: block;
+  }
+
+  .header {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .header .head-content {
+    padding: 3em;
+  }
+
+  .header div {
+    width: 100%;
+  }
+
+  .header img {
+    display: none;
+  }
+  .experience {
+    height: auto;
+    flex-wrap: wrap;
+    width: 80%;
+  }
+  .experience div {
+    padding: 1em 0;
+  }
+  .services .my-services {
+    padding: 0 1em;
+  }
+  .services .my-services div {
+    width: 90%;
+  }
+}
